@@ -6,7 +6,7 @@
 
 #print (pantun[2])
 
-#file_pantun.close ()
+#file_pantun.close
 
 file_pantun = open("pantun.txt", "r")
 
