@@ -1,9 +1,18 @@
+#file_pantun = open("pantun.txt", "r")
+
+#pantun = file_pantun.readlines ()
+
+#print (pantun[0])
+
+#print (pantun[2])
+
+file_pantun.close ()
+
 file_pantun = open("pantun.txt", "r")
 
 pantun = file_pantun.readlines ()
 
-print (pantun[0])
+for teks in pantun:
+    print (teks)
 
-print (pantun[2])
-
-file_pantun.close ()
+    file_pantun.close ()
